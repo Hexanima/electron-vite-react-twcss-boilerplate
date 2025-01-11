@@ -1,5 +1,5 @@
-import Avatar from './Avatar'
-import logo from '../assets/logo.svg'
+import Avatar from './components/Avatar'
+import logo from './assets/logo.svg'
 
 const randoms = [
   [1, 2],
@@ -22,6 +22,9 @@ function App() {
             <p className="mt-4 text-xl text-gray-500">
               This is a boilerplate build with Vite, React 18, TypeScript,
               Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.
+            </p>
+            <p className="mt-4 text-xl text-gray-500">
+              This also implements Electron and Electron Forge
             </p>
           </div>
           <div className="my-10">
